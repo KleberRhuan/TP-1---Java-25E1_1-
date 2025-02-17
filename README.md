@@ -2,7 +2,7 @@
 Aluno Kleber Rhuan - Infnet.
 Pequeno CLI para gestão de produtos, Banco de dados em JSON(Apenas para persistência).
 
-
+```java
 package com.kleberrhuan;
 
 public class HelloWorld {
@@ -11,3 +11,4 @@ public class HelloWorld {
         System.out.println("Hello World");
     }
 }
+```
