@@ -1,0 +1,26 @@
+{
+  "11" : {
+    "id" : 11,
+    "name" : "Bolsa Channel",
+    "quantity" : 10,
+    "value" : 15678.24
+  },
+  "13" : {
+    "id" : 13,
+    "name" : "Saia Zara",
+    "quantity" : 29,
+    "value" : 225.87
+  },
+  "15" : {
+    "id" : 15,
+    "name" : "Bolsa Gucci",
+    "quantity" : 75,
+    "value" : 8766.56
+  },
+  "17" : {
+    "id" : 17,
+    "name" : "Sapatos Givenchy",
+    "quantity" : 5,
+    "value" : 10000.22
+  }
+}
