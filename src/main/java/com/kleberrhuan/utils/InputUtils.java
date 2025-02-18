@@ -17,12 +17,17 @@
         
         public static Product promptForProductData(){
             String name = promptForString("Insira um nome para o produto:");
-            int quantity = promptForInt("Insira uma quantidade para o produto:");
+            int quantity = promptForInt("Insira uma quantidade para o produto:", false);
             BigDecimal value = promptForBigDecimal("Insira um valor para o produto:");
+            System.out.println();
             return Product.create(name, quantity, value);
         }
-    
+   
         public static int promptForInt(String message){
+            return promptForInt(message, true);
+        }
+        
+        public static int promptForInt(String message, boolean breakLine){
             System.out.print(message + " ");
     
             while (!scanner.hasNextInt()) {
@@ -33,6 +38,9 @@
     
             int number = scanner.nextInt();
             scanner.nextLine();
+            if(breakLine) {
+                System.out.println();
+            }
             return number;
         }
     
@@ -47,6 +55,7 @@
     
             long value = scanner.nextLong();
             scanner.nextLine();
+            System.out.println();
             return value;
         }
     

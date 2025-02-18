@@ -22,5 +22,17 @@
     "name" : "Sapatos Givenchy",
     "quantity" : 5,
     "value" : 10000.22
+  },
+  "21" : {
+    "id" : 21,
+    "name" : "Tenis Nike",
+    "quantity" : 29,
+    "value" : 44.22
+  },
+  "22" : {
+    "id" : 22,
+    "name" : "Tenis Adidas",
+    "quantity" : 27,
+    "value" : 299.99
   }
 }
